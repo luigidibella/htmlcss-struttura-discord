@@ -20,28 +20,28 @@ body {
 
 header {
   display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #b9deea;
   height: 80px;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #daa520;
   height: 50px;
   width: 1250px;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .logo {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   height: 50px;
   width: 250px;
   padding-left: 10px;
-  justify-content: flex-start;
-  align-items: center;
   
 }
 
@@ -53,6 +53,9 @@ header {
 }
 
 nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   width: 750px;
 }
@@ -64,7 +67,7 @@ nav ul {
 }
 
 nav ul li a {
-  
+  padding: 5px 5px;
 }
 
 .btn {
