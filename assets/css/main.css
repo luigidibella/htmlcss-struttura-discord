@@ -18,6 +18,7 @@ body {
   border: 1px dashed black;
 }
 
+/* HEADER */
 header {
   display: flex;
   align-items: center;
@@ -45,12 +46,11 @@ header {
   
 }
 
-.logo-img {
+/* .logo-img {
   height: 20px;
   width: 100px;
   background-color: pink;
-  
-}
+} */
 
 nav {
   display: flex;
@@ -78,11 +78,33 @@ nav ul li a {
   justify-content: flex-end;
   align-items: center;
 }
+/* /HEADER */
 
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 525px;
+  background-color: #00008b;
+}
+
+.hero-container {
+  width: 950px;
+  height: 420px;
+  background-color: #ee82ee;
+
+}
+/* /HERO */
+
+/* MAIN */
 main {
   background-color: green;
 }
+/* /MAIN */
 
+/* FOOTER */
 footer {
   background-color: #23272a;
 }
+/* /FOOTER */
