@@ -129,6 +129,20 @@ main {
   background-color: #ffc0cb;
 
 }
+
+.big-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1050px;
+  background-color: #d3d3d3;
+}
+
+.container-big-bottom {
+  width: 1250px;
+  height: 940px;
+  background-color: #228b22;
+}
 /* /MAIN */
 
 /* FOOTER */
