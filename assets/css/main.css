@@ -101,6 +101,34 @@ nav ul li a {
 main {
   background-color: green;
 }
+
+.section-white{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 625px;
+  background-color: white;
+}
+.section-grey{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 625px;
+  background-color: #d3d3d3;
+}
+
+.img-container {
+  width: 750px;
+  height: 515px;
+  background-color: #1e90ff;
+}
+
+.text-container {
+  width: 500px;
+  height: 515px;
+  background-color: #ffc0cb;
+
+}
 /* /MAIN */
 
 /* FOOTER */
