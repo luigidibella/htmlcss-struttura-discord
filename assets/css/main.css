@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: red;
+  background-color: grey;
   font-family: Arial, Helvetica, sans-serif
 }
 
@@ -163,15 +163,55 @@ footer {
 }
 
 .big-column {
-  width: 380px;
+  width: 370px;
   height: 600px;
   background-color: #f08080;
 }
 
 .column {
-  width: 290px;
+  width: 220px;
   height: 600px;
   background-color: #20b2aa;
+}
+
+/* .hr {
+  color: white;
+
+} */
+
+.bottom-footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 120px;
+  background-color: #23272a;
+}
+
+.bottom-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1250px;
+  height: 90px;
+  background-color: #7fffd4;
+}
+
+.logo-footer {
+  display: flex;
+  width: 70px;
+  height: 40px;
+  background-color: #fbb3be;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-footer {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  background-color: #fbb3be;
+  justify-content: center;
+  align-items: center;
 }
 
 
