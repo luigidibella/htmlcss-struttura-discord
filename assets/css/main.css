@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: grey;
+  background-color: grey;                    /* da sistemare */
   font-family: Arial, Helvetica, sans-serif
 }
 
@@ -99,7 +99,7 @@ nav ul li a {
 
 /* MAIN */
 main {
-  background-color: green;
+  background-color: #23272a;                 /* da sistemare */
 }
 
 .section-white{
@@ -213,6 +213,4 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
-
 /* /FOOTER */
