@@ -43,7 +43,6 @@ header {
   height: 50px;
   width: 250px;
   padding-left: 10px;
-  
 }
 
 /* .logo-img {
@@ -93,7 +92,6 @@ nav ul li a {
   width: 950px;
   height: 420px;
   background-color: #ee82ee;
-
 }
 /* /HERO */
 
@@ -127,7 +125,6 @@ main {
   width: 500px;
   height: 515px;
   background-color: #ffc0cb;
-
 }
 
 .big-bottom {
@@ -147,19 +144,16 @@ main {
 
 /* FOOTER */
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #23272a;
 }
 
 .top-footer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 650px;
   margin-bottom: 5px;
-  
+  padding-top: 10px;
 }
 
 .big-column {
@@ -176,7 +170,6 @@ footer {
 
 /* .hr {
   color: white;
-
 } */
 
 .bottom-footer {
